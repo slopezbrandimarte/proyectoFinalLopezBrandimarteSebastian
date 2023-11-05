@@ -1,0 +1,9 @@
+.ItemListContainer {
+    padding: 20px;
+  }
+  
+  .ItemListContainer h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }

@@ -1,0 +1,21 @@
+div {
+    position: relative;
+  }
+  
+  /* Estilos específicos para el ícono del carrito */
+  .cart-widget {
+    background-color: #007bff;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .cart-widget:hover {
+    background-color: #0056b3;
+  }

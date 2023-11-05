@@ -1,0 +1,52 @@
+.ListGroup {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  /* Estilos para los elementos Item dentro de la lista */
+  .CardItem {
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    transition: transform 0.2s;
+  }
+  
+  .CardItem:hover {
+    transform: translateY(-5px);
+  }
+  
+  .ItemHeader {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .ItemImg {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .Info {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 5px;
+  }
+  
+  .Option {
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.2s;
+  }
+  
+  .Option:hover {
+    background-color: #0056b3;
+  }
